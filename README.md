@@ -1,12 +1,24 @@
-# Lista de tareas
+# Todo list
 
-Base de datos de ejemplo.
 
-## Modelo entidad relación
+##  Relatinal Model Design
 
-![Modelo entidad relación](/docs/model.png)
+![Relational Model Design](/docs/model.png)
+
 
 ## Script SQL
+
+<details>
+
+<summary>Script SQL for MySQL</summary>
+
+Run Script using __mysqladmin__
+
+```bask
+mysqladmin -u <username> -p < path/to/script/sql
+```
+
+Script
 
 ```sql
 
@@ -71,3 +83,5 @@ VALUES
     (1, 'predeterminado', NULL, true, NOW());
 
 ```
+
+</details>
